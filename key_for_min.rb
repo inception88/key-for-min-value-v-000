@@ -9,10 +9,10 @@ def key_for_min_value(hash)
       lowest = value
       i =+ 1
     end
-    if value < lowest
-      lowest1 = key
-      lowest = value
-    end
+#   if value < lowest
+#    lowest1 = key
+#   lowest = value
+#    end
   end
   lowest1
 end
