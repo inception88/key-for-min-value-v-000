@@ -4,6 +4,7 @@
 def key_for_min_value(hash)
   i = 0
   lowest1 = :key
+  lowest = 0
   hash.each do |name, value|
     if i == 0
       lowest1 = key
