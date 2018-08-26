@@ -12,7 +12,7 @@ def key_for_min_value(hash)
     end
    if value < lowest
     lowest1 = key
-   lowest = value
+    lowest = value
     end
   end
   lowest1
