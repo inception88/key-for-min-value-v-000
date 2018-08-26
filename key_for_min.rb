@@ -7,7 +7,7 @@ def key_for_min_value(hash)
   lowest = 0
   hash.each do |name, value|
     if hash.empty? == true 
-      lowest1 = nil
+    return nil
     end
     if i == 0
       lowest1 = name
