@@ -15,7 +15,7 @@ def key_for_min_value(hash)
     lowest1 = name
     lowest = value
     end
-    if hash = nil
+    if hash = 
       lowest1 = nil
     end
   end
